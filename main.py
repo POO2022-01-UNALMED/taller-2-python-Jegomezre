@@ -7,7 +7,7 @@ class Asiento:
     
     def cambiarColor(self, color):
         colper = ['rojo', 'verde', 'amarillo', 'negro,', 'blanco']
-        if self.color in colper:
+        if color in colper:
             self.color = color
 
 class Auto:
